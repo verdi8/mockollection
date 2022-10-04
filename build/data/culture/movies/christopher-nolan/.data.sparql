@@ -1,0 +1,20 @@
+#Christopher Nolan movies
+SELECT ?title
+(MIN(?date) AS ?firstReleaseDate)
+(GROUP_CONCAT(DISTINCT ?castMemberLabel;  SEPARATOR="#") AS ?castMembers)
+(GROUP_CONCAT(DISTINCT ?composerLabel;  SEPARATOR="#") AS ?composers)
+WHERE {
+    {?item wdt:P31 wd:Q11424 } UNION { ?item wdt:P31 wd:Q18011172}. # a film or a film project
+    ?item wdt:P57 wd:Q25191; #directed by Christopher Nolan
+    wdt:P577 ?date;
+    wdt:P1476 ?title;
+    wdt:P86 ?composer;
+    wdt:P161 ?castMember;
+
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "${lang},en".
+    ?composer rdfs:label ?composerLabel.
+    ?item rdfs:label ?title.
+    ?castMember rdfs:label ?castMemberLabel
+    }
+} GROUP BY ?item ?title
+ORDER BY (?firstReleaseDate)

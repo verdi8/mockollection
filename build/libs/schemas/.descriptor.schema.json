@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://[TODO]",
+  "title": "Mockollection Descriptor",
+  "description": "A descriptor to generate a set of mock data files",
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "A name that will be used as the files base name",
+      "type": "string"
+    },
+    "title": {
+      "description": "A brief description of the content",
+      "type": "string"
+    },
+    "description": {
+      "description": "A longer description of the content",
+      "type": "string"
+    },
+    "source": {
+      "description": "The Wikidata SPARQL query to generate the data",
+      "type": "object",
+      "properties": {
+        "type": {
+          "description": "The data source type (SPARQL on Wikidata, a Python script, a template, some maths)",
+          "type": "string",
+          "enum": [
+            "wikidata/sparql"
+          ]
+        },
+        "file": {
+          "description": "The path (relative to the descriptor file) to the file that contains the mock data source info",
+          "type": "string"
+        }
+      },
+      "required": [
+        "type"
+      ]
+    },
+    "query": {
+      "description": "The Wikidata SPARQL query to generate the data",
+      "type": "string"
+    },
+    "language": {
+      "description": "Language list for variants",
+      "type": "string"
+    },
+    "variantLanguages": {
+      "description": "Language list",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "formats": {
+    "description": "Format list",
+    "type": "array",
+    "items": {
+      "type": "string",
+      "enum": ["json", "csv", "yaml"]
+    }
+  },
+  "postProcesses" : {
+    "description" : "Post processes values",
+    "type" : "object",
+    "properties": {
+      "name" : {
+        "description" : "The name of the postprocess",
+        "type" : "string",
+        "enum" : ["addId", "formatAsIsoDate", "split"]
+      },
+      "property" : {
+        "description" : "The property to apply the post-process on",
+        "type" : "string"
+      },
+      "parameters" : {
+        "description" : "Additional parameters as key value pairs",
+        "type" : "object"
+      }
+    },
+    "required": [ "name", "property"]
+  },
+  "required": [ "name", "title", "description", "source", "language", "variantLanguages" ]
+}

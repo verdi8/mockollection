@@ -1,0 +1,39 @@
+{
+    "date": "2022-10-04T22:03:27",
+    "title": "Christopher Nolan movies",
+    "description": "A list of director Christopher Nolan movies. These are sorted from the older to the newer ones. The list includes his film projects, but not his short films",
+    "files": [
+        {
+            "main": true,
+            "language": "en",
+            "format": "json",
+            "path": "christopher-nolan-movies.json",
+            "size": 10953,
+            "itemCount": 12
+        },
+        {
+            "main": true,
+            "language": "en",
+            "format": "yaml",
+            "path": "christopher-nolan-movies.yaml",
+            "size": 6674,
+            "itemCount": 12
+        },
+        {
+            "main": false,
+            "language": "fr",
+            "format": "json",
+            "path": "variant/fr/christopher-nolan-movies.json",
+            "size": 10969,
+            "itemCount": 12
+        },
+        {
+            "main": false,
+            "language": "fr",
+            "format": "yaml",
+            "path": "variant/fr/christopher-nolan-movies.yaml",
+            "size": 6690,
+            "itemCount": 12
+        }
+    ]
+}

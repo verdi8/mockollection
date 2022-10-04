@@ -1,0 +1,36 @@
+SELECT DISTINCT ?name ?radius ?minSunDistance ?maxSunDistance ?orbitalPeriod
+WHERE {
+    ?item wdt:P31/wdt:P279 wd:Q13205267. # Instance of planet of the Solar System
+
+    # Volumetric mean radius
+    ?item p:P2120 ?radiusStatement.
+    ?radiusStatement ps:P2120 ?radius.
+    ?radiusStatement pq:P518 wd:Q2796622.
+
+    # Orbital period
+    ?item p:P2146 ?orbitalPeriodStatement.
+    ?orbitalPeriodStatement psv:P2146 ?orbitalPeriodValueNode.
+    ?orbitalPeriodValueNode     wikibase:quantityAmount     ?orbitalPeriod.
+    ?orbitalPeriodValueNode     wikibase:quantityUnit     wd:Q573.  # in days
+
+    # Apoapsis
+    ?item p:P2243 ?apoapsisStatement.
+    ?apoapsisStatement psv:P2243 ?apoapsisValueNode.
+    ?apoapsisValueNode     wikibase:quantityAmount     ?apoapsis.
+    ?apoapsisValueNode     wikibase:quantityUnit     wd:Q828224.  # in km
+
+    # Perispasis
+    ?item p:P2244 ?periapsisStatement.
+    ?periapsisStatement psv:P2244 ?periapsisValueNode.
+    ?periapsisValueNode     wikibase:quantityAmount     ?periapsis.
+    ?periapsisValueNode     wikibase:quantityUnit     wd:Q828224. # in km
+
+    BIND (?apoapsis AS ?maxSunDistance).
+    BIND (?periapsis AS ?minSunDistance).
+
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "${lang},en".
+    ?item rdfs:label ?name.
+    }
+}
+ORDER BY ?maxSunDistance
+

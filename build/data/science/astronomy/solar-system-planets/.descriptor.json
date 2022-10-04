@@ -1,0 +1,14 @@
+{
+  "name" : "solar-system-planets",
+  "title" : "Solar system planets",
+  "description" : "The planets of our Solar System, from the nearest to the furthest one. Distances from sun and volumetric mean radiuses are in km. Orbital periods are in Earth days",
+  "source" : {
+    "type" : "wikidata/sparql",
+    "file" : "./.data.sparql"
+  },
+  "language" : "en",
+  "variantLanguages" : ["fr"],
+  "formats" : ["json", "yaml"],
+  "postProcesses" : [
+  ]
+}

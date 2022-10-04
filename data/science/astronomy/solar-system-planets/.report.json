@@ -1,0 +1,39 @@
+{
+    "date": "2022-10-04T22:03:30",
+    "title": "Solar system planets",
+    "description": "The planets of our Solar System, from the nearest to the furthest one. Distances from sun and volumetric mean radiuses are in km.",
+    "files": [
+        {
+            "main": true,
+            "language": "en",
+            "format": "json",
+            "path": "solar-system-planets.json",
+            "size": 1445,
+            "itemCount": 8
+        },
+        {
+            "main": true,
+            "language": "en",
+            "format": "yaml",
+            "path": "solar-system-planets.yaml",
+            "size": 971,
+            "itemCount": 8
+        },
+        {
+            "main": false,
+            "language": "fr",
+            "format": "json",
+            "path": "variant/fr/solar-system-planets.json",
+            "size": 1446,
+            "itemCount": 8
+        },
+        {
+            "main": false,
+            "language": "fr",
+            "format": "yaml",
+            "path": "variant/fr/solar-system-planets.yaml",
+            "size": 977,
+            "itemCount": 8
+        }
+    ]
+}
