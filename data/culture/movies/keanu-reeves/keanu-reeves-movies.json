@@ -1,0 +1,601 @@
+[
+    {
+        "id": 0,
+        "title": "Youngblood",
+        "releaseYear": "1986",
+        "character": null,
+        "directors": [
+            "Peter Markle"
+        ]
+    },
+    {
+        "id": 1,
+        "title": "River's Edge",
+        "releaseYear": "1986",
+        "character": null,
+        "directors": [
+            "Tim Hunter"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Flying",
+        "releaseYear": "1986",
+        "character": null,
+        "directors": [
+            "Paul Lynch"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "The Prince of Pennsylvania",
+        "releaseYear": "1988",
+        "character": null,
+        "directors": [
+            "Ron Nyswaner"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Dangerous Liaisons",
+        "releaseYear": "1988",
+        "character": null,
+        "directors": [
+            "Stephen Frears"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Permanent Record",
+        "releaseYear": "1988",
+        "character": null,
+        "directors": [
+            "Marisa Silver"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "The Night Before",
+        "releaseYear": "1988",
+        "character": null,
+        "directors": [
+            "Thom Eberhardt"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Bill & Ted's Excellent Adventure",
+        "releaseYear": "1989",
+        "character": "Ted Logan",
+        "directors": [
+            "Stephen Herek"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Parenthood",
+        "releaseYear": "1989",
+        "character": null,
+        "directors": [
+            "Ron Howard"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Tune in Tomorrow",
+        "releaseYear": "1990",
+        "character": null,
+        "directors": [
+            "Jon Amiel"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "I Love You to Death",
+        "releaseYear": "1990",
+        "character": null,
+        "directors": [
+            "Lawrence Kasdan"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Bill & Ted's Bogus Journey",
+        "releaseYear": "1991",
+        "character": "Ted Logan",
+        "directors": [
+            "Peter Hewitt"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Point Break",
+        "releaseYear": "1991",
+        "character": null,
+        "directors": [
+            "Kathryn Bigelow"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Providence",
+        "releaseYear": "1991",
+        "character": null,
+        "directors": [
+            "David Mackay"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "My Own Private Idaho",
+        "releaseYear": "1991",
+        "character": null,
+        "directors": [
+            "Gus Van Sant"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Much Ado About Nothing",
+        "releaseYear": "1993",
+        "character": null,
+        "directors": [
+            "Kenneth Branagh"
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Little Buddha",
+        "releaseYear": "1993",
+        "character": null,
+        "directors": [
+            "Bernardo Bertolucci"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Freaked",
+        "releaseYear": "1993",
+        "character": null,
+        "directors": [
+            "Tom Stern",
+            "Alex Winter"
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Even Cowgirls Get the Blues",
+        "releaseYear": "1993",
+        "character": null,
+        "directors": [
+            "Gus Van Sant"
+        ]
+    },
+    {
+        "id": 19,
+        "title": "Speed",
+        "releaseYear": "1994",
+        "character": null,
+        "directors": [
+            "Jan de Bont"
+        ]
+    },
+    {
+        "id": 20,
+        "title": "A Walk in the Clouds",
+        "releaseYear": "1995",
+        "character": null,
+        "directors": [
+            "Alfonso Arau"
+        ]
+    },
+    {
+        "id": 21,
+        "title": "Johnny Mnemonic",
+        "releaseYear": "1995",
+        "character": null,
+        "directors": [
+            "Robert Longo"
+        ]
+    },
+    {
+        "id": 22,
+        "title": "Chain Reaction",
+        "releaseYear": "1996",
+        "character": null,
+        "directors": [
+            "Andrew Davis"
+        ]
+    },
+    {
+        "id": 23,
+        "title": "Feeling Minnesota",
+        "releaseYear": "1996",
+        "character": null,
+        "directors": [
+            "Steven Baigelman"
+        ]
+    },
+    {
+        "id": 24,
+        "title": "The Last Time I Committed Suicide",
+        "releaseYear": "1997",
+        "character": null,
+        "directors": [
+            "Stephen Kay"
+        ]
+    },
+    {
+        "id": 25,
+        "title": "The Devil's Advocate",
+        "releaseYear": "1997",
+        "character": null,
+        "directors": [
+            "Taylor Hackford"
+        ]
+    },
+    {
+        "id": 26,
+        "title": "Me and Will",
+        "releaseYear": "1999",
+        "character": null,
+        "directors": [
+            "Melissa Behr",
+            "Sherrie Rose"
+        ]
+    },
+    {
+        "id": 27,
+        "title": "The Matrix",
+        "releaseYear": "1999",
+        "character": "Neo",
+        "directors": [
+            "Lana Wachowski",
+            "Lilly Wachowski"
+        ]
+    },
+    {
+        "id": 28,
+        "title": "The Gift",
+        "releaseYear": "2000",
+        "character": null,
+        "directors": [
+            "Sam Raimi"
+        ]
+    },
+    {
+        "id": 29,
+        "title": "The Watcher",
+        "releaseYear": "2000",
+        "character": null,
+        "directors": [
+            "Joe Charbanic"
+        ]
+    },
+    {
+        "id": 30,
+        "title": "The Replacements",
+        "releaseYear": "2000",
+        "character": null,
+        "directors": [
+            "Howard Deutch"
+        ]
+    },
+    {
+        "id": 31,
+        "title": "Hardball",
+        "releaseYear": "2001",
+        "character": null,
+        "directors": [
+            "Brian Robbins"
+        ]
+    },
+    {
+        "id": 32,
+        "title": "Sweet November",
+        "releaseYear": "2001",
+        "character": null,
+        "directors": [
+            "Pat O'Connor"
+        ]
+    },
+    {
+        "id": 33,
+        "title": "The Matrix Revolutions",
+        "releaseYear": "2003",
+        "character": "Neo",
+        "directors": [
+            "Lana Wachowski",
+            "Lilly Wachowski"
+        ]
+    },
+    {
+        "id": 34,
+        "title": "The Matrix Reloaded",
+        "releaseYear": "2003",
+        "character": "Neo",
+        "directors": [
+            "Lana Wachowski",
+            "Lilly Wachowski"
+        ]
+    },
+    {
+        "id": 35,
+        "title": "Something's Gotta Give",
+        "releaseYear": "2003",
+        "character": null,
+        "directors": [
+            "Nancy Meyers"
+        ]
+    },
+    {
+        "id": 36,
+        "title": "Thumbsucker",
+        "releaseYear": "2005",
+        "character": null,
+        "directors": [
+            "Mike Mills"
+        ]
+    },
+    {
+        "id": 37,
+        "title": "Constantine",
+        "releaseYear": "2005",
+        "character": "John Constantine",
+        "directors": [
+            "Francis Lawrence"
+        ]
+    },
+    {
+        "id": 38,
+        "title": "A Scanner Darkly",
+        "releaseYear": "2006",
+        "character": null,
+        "directors": [
+            "Richard Linklater"
+        ]
+    },
+    {
+        "id": 39,
+        "title": "The Lake House",
+        "releaseYear": "2006",
+        "character": null,
+        "directors": [
+            "Alejandro Agresti"
+        ]
+    },
+    {
+        "id": 40,
+        "title": "Here's Looking at You, Boy",
+        "releaseYear": "2007",
+        "character": null,
+        "directors": [
+            "André Schäfer"
+        ]
+    },
+    {
+        "id": 41,
+        "title": "Street Kings",
+        "releaseYear": "2008",
+        "character": null,
+        "directors": [
+            "David Ayer"
+        ]
+    },
+    {
+        "id": 42,
+        "title": "The Day the Earth Stood Still",
+        "releaseYear": "2008",
+        "character": "Klaatu",
+        "directors": [
+            "Scott Derrickson"
+        ]
+    },
+    {
+        "id": 43,
+        "title": "The Private Lives of Pippa Lee",
+        "releaseYear": "2009",
+        "character": null,
+        "directors": [
+            "Rebecca Miller"
+        ]
+    },
+    {
+        "id": 44,
+        "title": "Henry's Crime",
+        "releaseYear": "2010",
+        "character": null,
+        "directors": [
+            "Malcolm Venville"
+        ]
+    },
+    {
+        "id": 45,
+        "title": "Side by Side",
+        "releaseYear": "2012",
+        "character": null,
+        "directors": [
+            "Christopher Kenneally"
+        ]
+    },
+    {
+        "id": 46,
+        "title": "Generation Um...",
+        "releaseYear": "2013",
+        "character": null,
+        "directors": [
+            "Mark Mann"
+        ]
+    },
+    {
+        "id": 47,
+        "title": "47 Ronin",
+        "releaseYear": "2013",
+        "character": null,
+        "directors": [
+            "Carl Rinsch"
+        ]
+    },
+    {
+        "id": 48,
+        "title": "Man of Tai Chi",
+        "releaseYear": "2013",
+        "character": null,
+        "directors": [
+            "Keanu Reeves"
+        ]
+    },
+    {
+        "id": 49,
+        "title": "John Wick",
+        "releaseYear": "2014",
+        "character": "John Wick",
+        "directors": [
+            "David Leitch"
+        ]
+    },
+    {
+        "id": 50,
+        "title": "Knock Knock",
+        "releaseYear": "2015",
+        "character": "Evan Webber",
+        "directors": [
+            "Eli Roth"
+        ]
+    },
+    {
+        "id": 51,
+        "title": "The Neon Demon",
+        "releaseYear": "2016",
+        "character": null,
+        "directors": [
+            "Nicolas Winding Refn"
+        ]
+    },
+    {
+        "id": 52,
+        "title": "Exposed",
+        "releaseYear": "2016",
+        "character": null,
+        "directors": [
+            "Gee Malik Linton"
+        ]
+    },
+    {
+        "id": 53,
+        "title": "The Whole Truth",
+        "releaseYear": "2016",
+        "character": null,
+        "directors": [
+            "Courtney Hunt"
+        ]
+    },
+    {
+        "id": 54,
+        "title": "The Bad Batch",
+        "releaseYear": "2016",
+        "character": null,
+        "directors": [
+            "Ana Lily Amirpour"
+        ]
+    },
+    {
+        "id": 55,
+        "title": "Keanu",
+        "releaseYear": "2016",
+        "character": null,
+        "directors": [
+            "Peter Atencio"
+        ]
+    },
+    {
+        "id": 56,
+        "title": "John Wick: Chapter 2",
+        "releaseYear": "2017",
+        "character": "John Wick",
+        "directors": [
+            "Chad Stahelski"
+        ]
+    },
+    {
+        "id": 57,
+        "title": "To the Bone",
+        "releaseYear": "2017",
+        "character": null,
+        "directors": [
+            "Marti Noxon"
+        ]
+    },
+    {
+        "id": 58,
+        "title": "Replicas",
+        "releaseYear": "2018",
+        "character": null,
+        "directors": [
+            "Jeffrey Nachmanoff"
+        ]
+    },
+    {
+        "id": 59,
+        "title": "Siberia",
+        "releaseYear": "2018",
+        "character": null,
+        "directors": [
+            "Matthew M. Ross"
+        ]
+    },
+    {
+        "id": 60,
+        "title": "Destination Wedding",
+        "releaseYear": "2018",
+        "character": null,
+        "directors": [
+            "Victor Levin"
+        ]
+    },
+    {
+        "id": 61,
+        "title": "John Wick: Chapter 3 – Parabellum",
+        "releaseYear": "2019",
+        "character": "John Wick",
+        "directors": [
+            "Chad Stahelski"
+        ]
+    },
+    {
+        "id": 62,
+        "title": "Always Be My Maybe",
+        "releaseYear": "2019",
+        "character": "themselves",
+        "directors": [
+            "Nahnatchka Khan"
+        ]
+    },
+    {
+        "id": 63,
+        "title": "Between Two Ferns: The Movie",
+        "releaseYear": "2019",
+        "character": null,
+        "directors": [
+            "Scott Aukerman"
+        ]
+    },
+    {
+        "id": 64,
+        "title": "Bill & Ted Face the Music",
+        "releaseYear": "2020",
+        "character": "Ted Logan",
+        "directors": [
+            "Dean Parisot"
+        ]
+    },
+    {
+        "id": 65,
+        "title": "The Matrix Resurrections",
+        "releaseYear": "2021",
+        "character": "Neo",
+        "directors": [
+            "Lana Wachowski"
+        ]
+    }
+]

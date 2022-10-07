@@ -1,0 +1,25 @@
+{
+  "name" : "keanu-reeves-movies",
+  "title" : "Keanu Reeves filmography",
+  "description" : "A list of movies with Keanu Reeves sorted by release year",
+  "source" : {
+    "type" : "wikidata/sparql",
+    "file" : "./.data.sparql"
+  },
+  "language" : "en",
+  "variantLanguages" : ["fr"],
+  "formats" : ["json", "yaml"],
+  "postProcesses" : [
+    {
+      "name" : "addId",
+      "property" : "id"
+    },
+    {
+      "name": "split",
+      "property": "directors",
+      "parameters": {
+        "separator": "#"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+#Keanu Reeves filmography
+SELECT ?title  (year(MIN(?date)) AS ?releaseYear) ?character (GROUP_CONCAT(DISTINCT ?director;  SEPARATOR="#") AS ?directors)
+WHERE {
+    ?item wdt:P31 wd:Q11424. # Movies
+    MINUS { ?item wdt:P31 wd:Q26204053 }.
+
+    ?item wdt:P577 ?date.
+    ?item wdt:P57 ?directedBy.
+
+    ?item p:P161 ?roleStatement.
+    ?roleStatement ps:P161 wd:Q43416. # Keanu Reeves as a Cast Member
+    OPTIONAL{ ?roleStatement pq:P453 ?role } # Optionnaly his character name
+
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "${lang},en".
+    ?role rdfs:label ?character.
+    ?item rdfs:label ?title.
+    ?directedBy rdfs:label ?director
+    }
+} GROUP BY ?title ?character
+ORDER BY (?releaseYear)

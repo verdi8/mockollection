@@ -12,7 +12,7 @@ WHERE {
     wdt:P161 ?castMember;
 
     SERVICE wikibase:label { bd:serviceParam wikibase:language "${lang},en".
-    ?composer rdfs:label ?composerLabel.
+        ?composer rdfs:label ?composerLabel.
     ?item rdfs:label ?title.
     ?castMember rdfs:label ?castMemberLabel
     }

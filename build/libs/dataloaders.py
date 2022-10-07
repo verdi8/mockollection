@@ -4,7 +4,7 @@ import string
 import requests
 
 
-def load_wikidata_sparql_data(query_file_path : str, lang : str):
+def load_wikidata_sparql_data(query_file_path: str, lang: str):
     """
     Loads data from the Wikidata SPARQL service.
     More info here : https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual#SPARQL_endpoint
@@ -16,8 +16,8 @@ def load_wikidata_sparql_data(query_file_path : str, lang : str):
 
     # Calls the Wikidata SPARQL service
     params = {
-        "query" : query,
-        "format" : "json"
+        "query": query,
+        "format": "json"
     }
     response = requests.get('https://query.wikidata.org/sparql', params)
     response.raise_for_status()
@@ -31,11 +31,14 @@ def load_wikidata_sparql_data(query_file_path : str, lang : str):
     id = 0;
 
     data = []
-    for binding in json_response["results"]["bindings"] :
+    for binding in json_response["results"]["bindings"]:
         item = {}
 
-        for var in vars :
-            value = binding[var]["value"]
+        for var in vars:
+            if var in binding :
+                value = binding[var]["value"]
+            else:
+                value = None
             item[var] = value
 
         data.append(item)

@@ -149,6 +149,9 @@
         "title": "The Dark Knight",
         "firstReleaseDate": "2008-07-18",
         "castMembers": [
+            "Ritchie Coster",
+            "Melinda McGraw",
+            "David Dastmalchian",
             "Heath Ledger",
             "Christian Bale",
             "Morgan Freeman",
@@ -174,14 +177,11 @@
             "Colin McFarlane",
             "Tommy Lister Jr.",
             "Keith Szarabajka",
-            "Richard Dillane",
-            "Ritchie Coster",
-            "Melinda McGraw",
-            "David Dastmalchian"
+            "Richard Dillane"
         ],
         "composers": [
-            "Hans Zimmer",
-            "James Newton Howard"
+            "James Newton Howard",
+            "Hans Zimmer"
         ]
     },
     {
@@ -220,6 +220,26 @@
         "title": "The Dark Knight Rises",
         "firstReleaseDate": "2012-07-20",
         "castMembers": [
+            "Rob Brown",
+            "Tomas Arana",
+            "Ben Mendelsohn",
+            "Brent Briscoe",
+            "Michael Papajohn",
+            "Josh Pence",
+            "Burn Gorman",
+            "David Gyasi",
+            "Thomas Lennon",
+            "Reggie Lee",
+            "Fredric Lehne",
+            "Alon Abutbul",
+            "Ian Bohen",
+            "James Harvey Ward",
+            "Ronnie Gene Blevins",
+            "Vincent van Ommen",
+            "Glen Powell",
+            "Jay Benedict",
+            "John Nolan",
+            "Thomas Tull",
             "Marion Cotillard",
             "Anne Hathaway",
             "Christian Bale",
@@ -248,27 +268,7 @@
             "Jillian Armenante",
             "Uri Gavriel",
             "Daniel Sunjata",
-            "Chris Ellis",
-            "Rob Brown",
-            "Tomas Arana",
-            "Ben Mendelsohn",
-            "Brent Briscoe",
-            "Michael Papajohn",
-            "Josh Pence",
-            "Burn Gorman",
-            "David Gyasi",
-            "Thomas Lennon",
-            "Reggie Lee",
-            "Fredric Lehne",
-            "Alon Abutbul",
-            "Ian Bohen",
-            "James Harvey Ward",
-            "Ronnie Gene Blevins",
-            "Vincent van Ommen",
-            "Glen Powell",
-            "Jay Benedict",
-            "John Nolan",
-            "Thomas Tull"
+            "Chris Ellis"
         ],
         "composers": [
             "Hans Zimmer"
@@ -346,8 +346,6 @@
         "title": "Tenet",
         "firstReleaseDate": "2020-08-13",
         "castMembers": [
-            "Marcel Sabat",
-            "Denzil Smith",
             "Robert Pattinson",
             "Aaron Taylor-Johnson",
             "Kenneth Branagh",
@@ -360,7 +358,9 @@
             "Andrew Howard",
             "John David Washington",
             "Yuri Kolokolnikov",
-            "Elizabeth Debicki"
+            "Elizabeth Debicki",
+            "Marcel Sabat",
+            "Denzil Smith"
         ],
         "composers": [
             "Ludwig Göransson"

@@ -127,6 +127,9 @@
   title: The Dark Knight
   firstReleaseDate: '2008-07-18'
   castMembers:
+  - Ritchie Coster
+  - Melinda McGraw
+  - David Dastmalchian
   - Heath Ledger
   - Christian Bale
   - Morgan Freeman
@@ -153,12 +156,9 @@
   - Tommy Lister Jr.
   - Keith Szarabajka
   - Richard Dillane
-  - Ritchie Coster
-  - Melinda McGraw
-  - David Dastmalchian
   composers:
-  - Hans Zimmer
   - James Newton Howard
+  - Hans Zimmer
 - id: 6
   title: Inception
   firstReleaseDate: '2010-07-08'
@@ -190,6 +190,26 @@
   title: The Dark Knight Rises
   firstReleaseDate: '2012-07-20'
   castMembers:
+  - Rob Brown
+  - Tomas Arana
+  - Ben Mendelsohn
+  - Brent Briscoe
+  - Michael Papajohn
+  - Josh Pence
+  - Burn Gorman
+  - David Gyasi
+  - Thomas Lennon
+  - Reggie Lee
+  - Fredric Lehne
+  - Alon Abutbul
+  - Ian Bohen
+  - James Harvey Ward
+  - Ronnie Gene Blevins
+  - Vincent van Ommen
+  - Glen Powell
+  - Jay Benedict
+  - John Nolan
+  - Thomas Tull
   - Marion Cotillard
   - Anne Hathaway
   - Christian Bale
@@ -219,26 +239,6 @@
   - Uri Gavriel
   - Daniel Sunjata
   - Chris Ellis
-  - Rob Brown
-  - Tomas Arana
-  - Ben Mendelsohn
-  - Brent Briscoe
-  - Michael Papajohn
-  - Josh Pence
-  - Burn Gorman
-  - David Gyasi
-  - Thomas Lennon
-  - Reggie Lee
-  - Fredric Lehne
-  - Alon Abutbul
-  - Ian Bohen
-  - James Harvey Ward
-  - Ronnie Gene Blevins
-  - Vincent van Ommen
-  - Glen Powell
-  - Jay Benedict
-  - John Nolan
-  - Thomas Tull
   composers:
   - Hans Zimmer
 - id: 8
@@ -304,8 +304,6 @@
   title: Tenet
   firstReleaseDate: '2020-08-13'
   castMembers:
-  - Marcel Sabat
-  - Denzil Smith
   - Robert Pattinson
   - Aaron Taylor-Johnson
   - Kenneth Branagh
@@ -319,6 +317,8 @@
   - John David Washington
   - Yuri Kolokolnikov
   - Elizabeth Debicki
+  - Marcel Sabat
+  - Denzil Smith
   composers:
   - "Ludwig G\xF6ransson"
 - id: 11

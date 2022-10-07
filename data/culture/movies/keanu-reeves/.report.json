@@ -1,0 +1,39 @@
+{
+    "date": "2022-10-07T15:50:47",
+    "title": "Keanu Reeves filmography",
+    "description": "A list of movies with Keanu Reeves sorted by release year",
+    "files": [
+        {
+            "main": true,
+            "language": "en",
+            "format": "json",
+            "path": "keanu-reeves-movies.json",
+            "size": 12583,
+            "itemCount": 66
+        },
+        {
+            "main": true,
+            "language": "en",
+            "format": "yaml",
+            "path": "keanu-reeves-movies.yaml",
+            "size": 7171,
+            "itemCount": 66
+        },
+        {
+            "main": false,
+            "language": "fr",
+            "format": "json",
+            "path": "variant/fr/keanu-reeves-movies.json",
+            "size": 12632,
+            "itemCount": 66
+        },
+        {
+            "main": false,
+            "language": "fr",
+            "format": "yaml",
+            "path": "variant/fr/keanu-reeves-movies.yaml",
+            "size": 7295,
+            "itemCount": 66
+        }
+    ]
+}

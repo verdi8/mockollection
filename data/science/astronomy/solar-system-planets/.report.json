@@ -1,7 +1,7 @@
 {
-    "date": "2022-10-04T22:03:30",
+    "date": "2022-10-07T15:50:48",
     "title": "Solar system planets",
-    "description": "The planets of our Solar System, from the nearest to the furthest one. Distances from sun and volumetric mean radiuses are in km.",
+    "description": "The planets of our Solar System, from the nearest to the furthest one. Distances from sun and volumetric mean radiuses are in km. Orbital periods are in Earth days",
     "files": [
         {
             "main": true,
